@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="screenshots/overview.png" alt="ChromaLib package illustration" width="180">
+</p>
+
 # ChromaLib
 
 ChromaLib provides typed, reusable ICC colour transforms for Dart. It keeps
@@ -154,3 +158,7 @@ published module in `assets/web/`.
 
 ChromaLib and Little CMS are MIT-licensed. See `THIRD_PARTY_NOTICES.md` for the
 exact bundled dependency and source-retrieval details.
+
+---
+
+Built for **[Focale](https://focale-editor.app)**, an advanced local image editor. Discover what these packages make possible in a real creative workflow.

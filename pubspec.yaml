@@ -11,6 +11,10 @@ topics:
   - native-assets
   - photography
 
+screenshots:
+  - description: 'A flat illustration of an ICC color profile transformation.'
+    path: screenshots/overview.png
+
 environment:
   sdk: '>=3.13.0 <4.0.0'
 
