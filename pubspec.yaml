@@ -1,0 +1,53 @@
+name: chromalib
+description: Fast, typed ICC color transforms for Dart, powered by Little CMS.
+version: 0.1.0
+homepage: https://github.com/focale-editor/chromalib
+repository: https://github.com/focale-editor/chromalib
+
+topics:
+  - color-management
+  - icc
+  - image-processing
+  - native-assets
+  - photography
+
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+executables:
+  prepare_library: prepare_library
+
+dependencies:
+  code_assets: ^2.0.0
+  crypto: ^3.0.7
+  ffi: ^2.2.0
+  hooks: ^2.2.0
+  native_toolchain_c: ^0.19.4
+  web: ^1.1.1
+  zcodec: '>=0.2.0 <0.3.0'
+
+dev_dependencies:
+  checks: ^0.3.2
+  lints: ^6.1.0
+  release: ^0.1.11
+  test: ^1.32.0
+
+release:
+  changelog:
+    header: '# 📰 ChromaLib changelog'
+    defaultIgnoredTypes: ['test']
+    defaultIgnoredScopes: ['repo', 'docs', 'version', 'deps', 'tools']
+
+flutter:
+  assets:
+    - path: assets/web/
+      platforms:
+        - web

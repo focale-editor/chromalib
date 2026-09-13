@@ -1,0 +1,9 @@
+test/
+doc/
+docs/
+AGENTS.md
+build
+analysis_options.yaml
+chromalib.iml
+native/third_party/.chromalib-lcms2-*.lock
+native/third_party/lcms2/
