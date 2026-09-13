@@ -1,6 +1,6 @@
 name: chromalib
 description: Fast, typed ICC color transforms for Dart, powered by Little CMS.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/focale-editor/chromalib
 repository: https://github.com/focale-editor/chromalib
 
